@@ -1,4 +1,4 @@
-# CS454 Project 2 - Cole Nicholson-Rubidoux, Dustin Yan
+# Written by: Cole Nicholson-Rubidoux, Dustin Yan
 
 #
 
@@ -7,6 +7,7 @@ from automata.fa.dfa import DFA
 
 
 def build_dfa():
+    # This function defines the NFA listed in the problem description
     nfa = NFA(
         states={'q0', 'q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q0_', 'q1_', 'q2_', 'q3_', 'q4_', 'q5_', 'q6_', 'qs', 'qf'},
         input_symbols={'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'},
@@ -52,6 +53,7 @@ def build_dfa():
 
 
 def count_strings(dfa, n):
+    # This function counts the number of accepting strings
     prev = {}
     cur = {}
     for state in dfa.states:
