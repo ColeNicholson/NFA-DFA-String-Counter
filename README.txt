@@ -1,5 +1,4 @@
 Authors: Cole Nicholson-Rubidoux, Dustin Yan
-Project: CS454 - Project 2
 How to run: This project uses a simple Python script that was tested and ran on the most current
             version of Python. This script also needs to have installed this (https://github.com/caleb531/automata#class-npdapda) library.
             Run command "python -m pip install automata-lib" to install the necessary components. After necessary
